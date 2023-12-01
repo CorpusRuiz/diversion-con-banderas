@@ -8,3 +8,36 @@ body {
 h1 {
   color: #333;
 }
+
+.minContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.countriesList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.countrieName {
+  font-size: 25px;
+  font-style: bold;
+}
+
+#moreInformation {
+  display: none;
+  width: 400px;
+  background-color: white;
+  border: gray 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
